@@ -116,3 +116,15 @@ int countChars(char * txt)
 	//if (cnt > 0) cnt++;
 	return cnt;
 }
+
+int countLowerCases(char * txt)
+{
+	int cnt = 0;
+	char c;
+	while (c = *txt++)
+	{
+		if (('a' <= c && c <= 'z') || 'ä' == c || 'ö' == c || 'ü' == c) cnt++;
+	}
+	//if (cnt > 0) cnt++;
+	return cnt;
+}

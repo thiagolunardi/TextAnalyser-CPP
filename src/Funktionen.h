@@ -11,3 +11,4 @@ int countWords(char * txt);
 int countABC(char * txt);
 int countNumbers(char * txt);
 int countChars(char * txt);
+int countLowerCases(char * txt);
