@@ -68,6 +68,12 @@ int main(int argc, char * argv[])
 		cout << endl << "Anzahl der Worte: " << counter << endl;
 	cout << endl;
 
+	cout << "\n Test 6a Zählen der LowerCase - C" << endl << endl;
+	counter = fileHandling2(fname, countLowerCases);
+	if (counter)
+		cout << endl << "Anzahl der LowerCase: " << counter << endl;
+	cout << endl;
+
 	system("pause");
 	return 0;
 }
